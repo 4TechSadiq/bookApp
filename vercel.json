@@ -1,14 +1,15 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "bookApp/wsgi.py",
+      "src": "requirements.txt",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "bookApp/wsgi.py"
+      "dest": "bookproject/wsgi.py"
     }
   ]
 }
