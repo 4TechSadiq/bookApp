@@ -19,7 +19,7 @@ This is a basic Django application for managing a collection of books. The appli
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/book-app.git
+   git clone https://github.com/4TechSadiq/bookApp.git
    cd book-app
 2. Create Virtual environment and Activate it:
    ```bash
