@@ -43,15 +43,15 @@ This is a basic Django application for managing a collection of books. The appli
 
 ### Viewing Books
 
-Go to the homepage to see a list of all books. Click on a book title to view its details.
+Go to the homepage to see a list of all books. Click on a details to view its details.
 
 ### Adding a New Book
 
-Go to `/books/add/` to add a new book. Fill in the details and submit the form.
+Fill the form to add new record.
 
 ### Updating a Book
 
-From the book detail view, click the "Edit" button to update the book's information. Submit the form to save changes.
+From the Record Table choose Update to update the record.
 
 ### Deleting a Book
 
@@ -59,7 +59,7 @@ From the book detail view, click the "Delete" button to remove the book from the
 
 ## Project Structure
 
-- `book_app/`: Contains the main Django project settings and URLs.
+- `bookapp/`: Contains the main Django project settings and URLs.
 - `books/`: Contains the book application with models, views, templates, and forms.
 - `templates/`: Contains HTML templates for the application.
 - `db.sqlite3`: The SQLite database file.
@@ -71,7 +71,7 @@ If you would like to contribute to this project, please fork the repository and 
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE. See the `LICENSE` file for more information.
 
 
 
