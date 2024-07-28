@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-3gh466d&9b0anb%v#z#j8)1td_@bz=05u%a^@k8=txy%r4vqf(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -77,8 +77,13 @@ WSGI_APPLICATION = 'bookproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'verceldb',
+        'HOST' : 'ep-empty-firefly-a4cf416w-pooler.us-east-1.aws.neon.tech'
+        'USER' : 'default',
+        'PASSWORD' : '4my6WdDtTVnj',
+        'PORT' : '5432',
+        
     }
 }
 
